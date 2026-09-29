@@ -69,9 +69,6 @@ Standard	Ctrl+1=标准	Ctrl+1
 词典本身是纯数据，需要配合**运行时注入工具**才能生效 —— 注入工具读取它，
 在绘制出口把界面文本换成中文。
 
-配套工具见 [`Ker0el/SpeedTree-CN`](https://github.com/Ker0el/SpeedTree-CN)（SpeedTree 的
-Qt6 Hook 实现，含 Qt6Core 代理、词典加载器与本词典）。
-
 自己接的话：按上面的[解析规则](#文件格式)读进一张哈希表，在文本测量/绘制入口
 做精确匹配替换即可。**替换发生在渲染出口**，这样测量和绘制共用同一条路径，
 中文变宽不会导致控件被截断。
@@ -125,10 +122,9 @@ python tools/check_dict.py translations.txt
 3. 一个英文键在不同界面含义不同时，请在 PR 里说明**是哪个界面**，不要挑一个译法覆盖所有场景。
 4. 专有名词（API 名、着色器表达式、文件筛选模式）保持原样。
 
-## 署名与授权
+## 授权
 
-- 本项目基于 [RS-YanG520/SpeedTree-CN](https://github.com/RS-YanG520/SpeedTree-CN)
-  的**初始词典**继续维护，在此致谢。
+- 部分词条整理自早先的开源汉化词典，在此致谢。
 - 代码与译文以 **MIT** 授权，见 [LICENSE](LICENSE)。
 - **SpeedTree® 是 IDV, Inc. / Unity Technologies 的注册商标**，本项目与其无任何关联。
 - 版权归属、商标声明与免责说明详见 [NOTICE.md](NOTICE.md)。
