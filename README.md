@@ -6,7 +6,7 @@
 
 3265 条英中对照 · 纯文本 · 不含任何商业软件本体
 
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+[![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)](LICENSE)
 [![Entries](https://img.shields.io/badge/entries-3265-brightgreen.svg)](#统计)
 [![Target](https://img.shields.io/badge/target-SpeedTree%2010.2.0-orange.svg)](#适用版本)
 
@@ -124,9 +124,11 @@ python tools/check_dict.py translations.txt
 ## 授权
 
 - 部分词条整理自早先的开源汉化词典，在此致谢。
-- 代码与译文以 **MIT** 授权，见 [LICENSE](LICENSE)。
-- **SpeedTree® 是 IDV, Inc. / Unity Technologies 的注册商标**，本项目与其无任何关联。
-- 版权归属、商标声明与免责说明详见 [NOTICE.md](NOTICE.md)。
+- 译文与仓库内的脚本、文档以 **CC BY-NC-SA 4.0** 授权，见 [LICENSE](LICENSE)：
+  署名 · 非商业性使用 · 相同方式共享。
+- **SpeedTree® 是 Unity Technologies 的注册商标**，本项目与其无任何关联。
+- 本授权只覆盖本仓库里我们编写的内容。**用 SpeedTree 制作的作品、程序界面英文原文、
+  商标**都不在其中，权利归各自权利人 —— 详见 [NOTICE.md](NOTICE.md)。
 
 <div align="center">
 <sub>仅供学习交流 · 请支持正版</sub>

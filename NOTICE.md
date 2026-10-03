@@ -6,9 +6,9 @@
 
 ## 一、商标与关联声明
 
-**SpeedTree®** 是 **IDV, Inc. / Unity Technologies** 的产品与注册商标。
+**SpeedTree®** 是 **Unity Technologies** 的产品与注册商标。
 
-本仓库**与 IDV, Inc. / Unity Technologies 没有任何关联**，不是官方项目，也未获得其授权或认可。
+本仓库**与 Unity Technologies 没有任何关联**，不是官方项目，也未获得其授权或认可。
 
 本仓库只提供一份文本对照表。使用它需要一个**你自己合法获得并安装**的 SpeedTree Modeler。
 
@@ -16,13 +16,32 @@
 
 ## 二、授权范围
 
-以下内容由 **星空汉化** 编写，以 **MIT** 授权（全文见 [LICENSE](LICENSE)）：
+以下内容由 **星空汉化** 编写，以 **CC BY-NC-SA 4.0**
+（署名 — 非商业性使用 — 相同方式共享，全文见 [LICENSE](LICENSE)）授权：
 
 | 路径 | 内容 |
 |---|---|
 | `translations.txt` | 词典的中文译文 |
 | `tools/check_dict.py` | 格式校验脚本 |
 | `README.md` / `NOTICE.md` | 文档 |
+
+简单说：转载、修改、再分发都欢迎，但要**署名**、**不能拿去卖钱**、
+**改过的版本要用同样的授权**。
+
+### 不在本授权范围内的内容
+
+本授权只覆盖上表里我们编写的那几样。下面这些与它无关，权利归各自权利人：
+
+| 项目 | 权利人 |
+|---|---|
+| SpeedTree Modeler 程序本体（可执行文件、DLL、资源） | Unity Technologies |
+| 程序界面上的英文原文（词典只是把它们当翻译键收录） | Unity Technologies |
+| **SpeedTree®** 商标 | Unity Technologies |
+| 任何人使用 SpeedTree Modeler 制作出来的作品（模型、贴图等） | 制作者本人 |
+
+最后一条要说清楚：本仓库只提供界面文本的中文对照，**不涉及、也不限制**你用
+SpeedTree 做出来的东西。那些作品怎么用、能不能卖，取决于你和 Unity 之间的授权协议，
+与本仓库无关。
 
 ### 关于词典里「英文 UI 字符串」的定性
 
