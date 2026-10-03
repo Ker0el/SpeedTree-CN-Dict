@@ -1,6 +1,6 @@
 <div align="center">
 
-# SpeedTree Modeler 汉化词典
+# SpeedTree Modeler 汉化词条库
 
 **SpeedTree Modeler 10.2.0 简体中文汉化 · 词条库**
 
