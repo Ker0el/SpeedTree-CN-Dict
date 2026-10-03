@@ -21,7 +21,7 @@
 
 | 路径 | 内容 |
 |---|---|
-| `translations.txt` | 词典的中文译文 |
+| `dict/translations.txt` | 词典的中文译文 |
 | `tools/check_dict.py` | 格式校验脚本 |
 | `README.md` / `NOTICE.md` | 文档 |
 

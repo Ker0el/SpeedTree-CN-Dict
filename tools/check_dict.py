@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""translations.txt 格式校验。
+"""dict/translations.txt 格式校验。
 
 按**运行时加载器**的解析规则检查词典，而不是按"看起来像什么"。
 
@@ -15,8 +15,8 @@
   6. key 区分大小写，精确全文匹配
 
 用法：
-    python tools/check_dict.py translations.txt
-    python tools/check_dict.py translations.txt --quiet     # 只报告问题
+    python tools/check_dict.py dict/translations.txt
+    python tools/check_dict.py dict/translations.txt --quiet     # 只报告问题
 
 退出码：0 = 没问题；1 = 有错误；2 = 有警告但无错误。
 """
@@ -149,8 +149,8 @@ def check(path, quiet):
 
 
 def main():
-    ap = argparse.ArgumentParser(description="translations.txt 格式校验")
-    ap.add_argument("path", nargs="?", default="translations.txt")
+    ap = argparse.ArgumentParser(description="dict/translations.txt 格式校验")
+    ap.add_argument("path", nargs="?", default="dict/translations.txt")
     ap.add_argument("--quiet", action="store_true", help="只报告问题，不打印统计")
     args = ap.parse_args()
     sys.exit(check(args.path, args.quiet))

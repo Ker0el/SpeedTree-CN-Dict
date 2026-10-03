@@ -24,7 +24,7 @@
 |---|---|
 | **适用版本** | SpeedTree Modeler **10.2.0** (Win64 / Qt6) |
 | **条目数** | 3265 条有效映射（3109 个唯一键） |
-| **文件** | [`translations.txt`](translations.txt) · UTF-8 · 134 KB |
+| **文件** | [`dict/translations.txt`](dict/translations.txt) · UTF-8 · 134 KB |
 | **覆盖面** | 菜单、属性面板、下拉项、提示气泡、对话框、状态栏 |
 
 ## 统计
@@ -68,11 +68,11 @@ Standard	Ctrl+1=标准	Ctrl+1
 词条本身是纯数据，要配合配套的汉化工具才能生效 —— 工具读取它，
 把界面文本换成中文。
 
-想自己接的话：按上面的[解析规则](#文件格式)把 `translations.txt` 读进一张哈希表，
+想自己接的话：按上面的[解析规则](#文件格式)把 `dict/translations.txt` 读进一张哈希表，
 在文本绘制前做精确匹配替换。**测量和绘制要一并处理**，
 否则中文变宽会把控件挤到截断。
 
-想改译文：直接改 `translations.txt`，重启程序生效（不用重新编译）。
+想改译文：直接改 `dict/translations.txt`，重启程序生效（不用重新编译）。
 
 ## 术语约定
 
@@ -108,7 +108,7 @@ Standard	Ctrl+1=标准	Ctrl+1
 欢迎提 PR 补词条或修译文。提交前请先跑一遍格式校验：
 
 ```bash
-python tools/check_dict.py translations.txt
+python tools/check_dict.py dict/translations.txt
 ```
 
 它会按运行时的解析规则检查格式、报告重复键与译文冲突。
